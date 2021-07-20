@@ -1,6 +1,21 @@
 language: c
 compiler:
-    - gcc
+- gcc
+
+env:
+  global:
+    secure: J/DR2lE/AqaXl1VJ04IhjfJ9x6re60biuvNQ1QoDGf6IUy09usxDbyXmzFlMGxqRVXmKsEmbGfERylYuvuLmj4pNydnNMt+2Ob6K5rD8kUtY5qhDgXTS31avqapfUfL4yzpV684YnMuT6GaKGEUD8GDe9Kvl8+nIozX/YaWi5Rsy68AltoibtU+YZApI/DTit69k5ugcpxNJ/T9z/k6jblh2GD2u+aafkYEoDa8q7gSiYsLS8RC0a2qsUmgpdSNEt+xjPslLhHm3BkjcYA+oRtctMuT5zUhJ/rbbTUTAT1toaxhGGTPfAoPF/FcG2vRKxmzz/wJtDIPGiZzbdb6xw9zSWRw/8L7zBykThmFQwzerbK1krMtr1mohqGnb45+/Wm+E/gCWl2cJ5Sg3bnmIOwnbhysfcDybhtezEepGInoxzfXyZmzu/cke1O4S+4MZUJGH8m6oRhBu8j0KW+njfRxrmUFlr7LyWzob1jeypjG13XIukxQgvHR9inB8MrTSNK46AclgTkaUvWQt1PG+S8rgtevusjcgo/KZQzEwgy7vHeWsqI0r7QPJvg2mGVGC8TCVESc/S/7itORiwoTwpJudLIxzNP6gIesUAT5CwWqKL32RFXvk6Ss7/0HqXP3o7zzD+Z3CoFjdL3JnglB9/YAEzVLfAW2Ui93FkxFwsp0=
+    
+addons:
+  sonarcloud:
+    organization: "anzosasuke"
+    token:
+      secure: "**************************" # encrypted value of your token
+
 script:
-- gcc -O3 memst.c -o mem
-- ./mem    
+  # Wraps the compilation with the Build Wrapper to generate configuration (used
+  # later by the SonarScanner) into the "bw-output" folder
+  - build-wrapper-linux-x86-64 --out-dir bw-output gcc -O3 memst.c -o mem
+  # And finally run the SonarCloud analysis - read the "sonar-project.properties"
+  # file to see the specific configuration
+  - sonar-scanner -Dsonar.cfamily.build-wrapper-output=bw-output    
