@@ -15,29 +15,28 @@
  // It's a type which is used to represent the
 // size of objects in bytes and is therefore used as the return type by the sizeof operator.
 
-void f(char *password, size_t bufferSize)
-{
-  char localToken[256];
-  char localBuffer[256];
-  // init(localToken, password);
-  memset(password, ' ', strlen(password)); // Noncompliant, password is about to be freed
-  memset(localToken, ' ', strlen(localBuffer)); // Noncompliant, localToken is about to go out of scope
-  free(password);
-}
-// ptr ==> Starting address of memory to be filled
-// x   ==> Value to be filled
-// n   ==> Number of bytes to be filled starting
-//         from ptr to be filled
-// void *memset(void *ptr, int x, size_t n);
+void main(void)
 
-int main()
 {
-char *password;
-password = (char*)malloc(10);//typecasting 
-printf("enter your password: ");
-scanf("%s", password);
-printf("%s", password);
-f(password, 10);
-printf("%s\n",password );
-return 0;
+  long in_FS_OFFSET;
+  uint local_14;
+  long local_10;
+  
+  local_10 = *(long *)(in_FS_OFFSET + 0x28);
+  printf("Enter age: ");
+  __isoc99_scanf(&DAT_00102010,&local_14);
+  if (((int)local_14 < 0xd) || (0x13 < (int)local_14)) {
+    if ((0x81 < (int)local_14) || ((int)local_14 < 0xbf)) {
+      printf("%d is not a teenage value\n",(ulong)local_14);
+    }
+  }
+  else {
+    printf("%d is a teenage value\n",(ulong)local_14);
+  }
+  if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return 0;
 }
+
