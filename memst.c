@@ -15,28 +15,46 @@
  // It's a type which is used to represent the
 // size of objects in bytes and is therefore used as the return type by the sizeof operator.
 
-void main(void)
+
+undefined8 main(void)
 
 {
+  void *pvVar1;
+  char *__s;
+  
+  pvVar1 = malloc(10);
+  __s = (char *)malloc(10);
+  printf("enter your password: ");
+  __isoc99_scanf(&DAT_0010201a,__s);
+  printf("%s",__s);
+  f(__s,10,pvVar1,10);
+  puts(__s);
+  return 0;
+}
+
+void f(char *param_1,undefined8 param_2,char *param_3)
+
+{
+  size_t sVar1;
   long in_FS_OFFSET;
-  uint local_14;
+  undefined local_218 [256];
+  char local_118 [264];
   long local_10;
   
   local_10 = *(long *)(in_FS_OFFSET + 0x28);
-  printf("Enter age: ");
-  __isoc99_scanf(&DAT_00102010,&local_14);
-  if (((int)local_14 < 0xd) || (0x13 < (int)local_14)) {
-    if ((0x81 < (int)local_14) || ((int)local_14 < 0xbf)) {
-      printf("%d is not a teenage value\n",(ulong)local_14);
-    }
-  }
-  else {
-    printf("%d is a teenage value\n",(ulong)local_14);
-  }
+  sVar1 = strlen(param_1);
+  memset(param_1,0x20,sVar1);
+  sVar1 = strlen(param_3);
+  memset(param_3,0x20,sVar1);
+  sVar1 = strlen(local_118);
+  memset(local_218,0x20,sVar1);
+  free(param_3);
+  free(param_3);
   if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
                     /* WARNING: Subroutine does not return */
     __stack_chk_fail();
   }
-  return 0;
+  return;
 }
+
 
