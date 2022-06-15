@@ -1,0 +1,163 @@
+Tue Jun 14 19:47:05 2022: build-wrapper, version 6.30 (linux-x86)
+Tue Jun 14 19:47:05 2022: System name: Linux Nodename: burdock.ittc.ku.edu Release: 5.4.0-48-generic Version: #52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020 Machine: x86_64
+Tue Jun 14 19:47:05 2022: socket path: /tmp/build-wrapper-socket.ztDrcW
+Tue Jun 14 19:47:05 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-i686.so
+Tue Jun 14 19:47:05 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Tue Jun 14 19:47:05 2022: dynamic library found: /home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-haswell.so
+Tue Jun 14 19:47:05 2022: cwd: </home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir bw-output>
+Tue Jun 14 19:47:05 2022: out-dir absolute path: </home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles/bw-output>
+Tue Jun 14 19:47:05 2022: command line received: <g++ DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: env 0: <SHELL=/bin/bash>
+Tue Jun 14 19:47:05 2022: env 1: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/433505,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/433505>
+Tue Jun 14 19:47:05 2022: env 2: <COLORTERM=truecolor>
+Tue Jun 14 19:47:05 2022: env 3: <SSH_AUTH_SOCK=/run/user/100576833/keyring/ssh>
+Tue Jun 14 19:47:05 2022: env 4: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jun 14 19:47:05 2022: env 5: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jun 14 19:47:05 2022: env 6: <GTK_MODULES=appmenu-gtk-module:appmenu-gtk-module>
+Tue Jun 14 19:47:05 2022: env 7: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jun 14 19:47:05 2022: env 8: <MATE_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jun 14 19:47:05 2022: env 9: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: env 10: <LOGNAME=a967a038>
+Tue Jun 14 19:47:05 2022: env 11: <XDG_SESSION_TYPE=x11>
+Tue Jun 14 19:47:05 2022: env 12: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jun 14 19:47:05 2022: env 13: <PRINTER=duplex>
+Tue Jun 14 19:47:05 2022: env 14: <PULSE_SCRIPT=/etc/xrdp/pulse/default.pa>
+Tue Jun 14 19:47:05 2022: env 15: <HOME=/home/a967a038>
+Tue Jun 14 19:47:05 2022: env 16: <LANG=en_US.UTF-8>
+Tue Jun 14 19:47:05 2022: env 17: <XDG_CURRENT_DESKTOP=MATE>
+Tue Jun 14 19:47:05 2022: env 18: <VTE_VERSION=6003>
+Tue Jun 14 19:47:05 2022: env 19: <XRDP_SOCKET_PATH=/run/xrdp/sockdir>
+Tue Jun 14 19:47:05 2022: env 20: <XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10>
+Tue Jun 14 19:47:05 2022: env 21: <SDKMAN_VERSION=5.13.1>
+Tue Jun 14 19:47:05 2022: env 22: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0c0c61c3_06c9_40a0_a8ad_06d1e3541658>
+Tue Jun 14 19:47:05 2022: env 23: <XDG_SESSION_CLASS=user>
+Tue Jun 14 19:47:05 2022: env 24: <TERM=xterm-256color>
+Tue Jun 14 19:47:05 2022: env 25: <GTK_OVERLAY_SCROLLING=0>
+Tue Jun 14 19:47:05 2022: env 26: <HOST=burdock.ittc.ku.edu>
+Tue Jun 14 19:47:05 2022: env 27: <USER=a967a038>
+Tue Jun 14 19:47:05 2022: env 28: <GNOME_TERMINAL_SERVICE=:1.988>
+Tue Jun 14 19:47:05 2022: env 29: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jun 14 19:47:05 2022: env 30: <XRDP_SESSION=1>
+Tue Jun 14 19:47:05 2022: env 31: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jun 14 19:47:05 2022: env 32: <DISPLAY=:10.0>
+Tue Jun 14 19:47:05 2022: env 33: <XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10>
+Tue Jun 14 19:47:05 2022: env 34: <SHLVL=1>
+Tue Jun 14 19:47:05 2022: env 35: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jun 14 19:47:05 2022: env 36: <UBUNTU_MENUPROXY=1>
+Tue Jun 14 19:47:05 2022: env 37: <XDG_SESSION_ID=c16>
+Tue Jun 14 19:47:05 2022: env 38: <DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596>
+Tue Jun 14 19:47:05 2022: env 39: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jun 14 19:47:05 2022: env 40: <SONAR_TOKEN=cdb4367d26b76c2154012a4f98e2aa041123c6a3>
+Tue Jun 14 19:47:05 2022: env 41: <QT_AUTO_SCREEN_SCALE_FACTOR=0>
+Tue Jun 14 19:47:05 2022: env 42: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jun 14 19:47:05 2022: env 43: <PATH=/home/a967a038/.cargo/bin:~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin>
+Tue Jun 14 19:47:05 2022: env 44: <DOMAINNAME=>
+Tue Jun 14 19:47:05 2022: env 45: <DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596>
+Tue Jun 14 19:47:05 2022: env 46: <SDKMAN_PLATFORM=linuxx64>
+Tue Jun 14 19:47:05 2022: env 47: <MAIL=/var/spool/mail/a967a038>
+Tue Jun 14 19:47:05 2022: env 48: <UID=100576833>
+Tue Jun 14 19:47:05 2022: env 49: <QT_SCALE_FACTOR=1>
+Tue Jun 14 19:47:05 2022: env 50: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb>
+Tue Jun 14 19:47:05 2022: env 51: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jun 14 19:47:05 2022: executing: <g++ DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: initializing json file
+Tue Jun 14 19:47:05 2022: process created with pid: 482692
+Tue Jun 14 19:47:05 2022: parent pid: 482690
+Tue Jun 14 19:47:05 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: executable: </home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jun 14 19:47:05 2022: argv[0]: <build-wrapper-linux-x86-64>
+Tue Jun 14 19:47:05 2022: argv[1]: <-c>
+Tue Jun 14 19:47:05 2022: argv[2]: <>
+Tue Jun 14 19:47:05 2022: argv[3]: <g++>
+Tue Jun 14 19:47:05 2022: argv[4]: <DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: skipping process with pid: 482692
+Tue Jun 14 19:47:05 2022: process created with pid: 482693
+Tue Jun 14 19:47:05 2022: parent pid: 482692
+Tue Jun 14 19:47:05 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Tue Jun 14 19:47:05 2022: argv[0]: <g++>
+Tue Jun 14 19:47:05 2022: argv[1]: <DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.ztDrcW>
+Tue Jun 14 19:47:05 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue Jun 14 19:47:05 2022: envp[2]: <SHELL=/bin/bash>
+Tue Jun 14 19:47:05 2022: envp[3]: <SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/433505,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/433505>
+Tue Jun 14 19:47:05 2022: envp[4]: <COLORTERM=truecolor>
+Tue Jun 14 19:47:05 2022: envp[5]: <SSH_AUTH_SOCK=/run/user/100576833/keyring/ssh>
+Tue Jun 14 19:47:05 2022: envp[6]: <GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current>
+Tue Jun 14 19:47:05 2022: envp[7]: <SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates>
+Tue Jun 14 19:47:05 2022: envp[8]: <GTK_MODULES=appmenu-gtk-module:appmenu-gtk-module>
+Tue Jun 14 19:47:05 2022: envp[9]: <DBUS_STARTER_BUS_TYPE=session>
+Tue Jun 14 19:47:05 2022: envp[10]: <MATE_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue Jun 14 19:47:05 2022: envp[11]: <PWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: envp[12]: <LOGNAME=a967a038>
+Tue Jun 14 19:47:05 2022: envp[13]: <XDG_SESSION_TYPE=x11>
+Tue Jun 14 19:47:05 2022: envp[14]: <MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man>
+Tue Jun 14 19:47:05 2022: envp[15]: <PRINTER=duplex>
+Tue Jun 14 19:47:05 2022: envp[16]: <PULSE_SCRIPT=/etc/xrdp/pulse/default.pa>
+Tue Jun 14 19:47:05 2022: envp[17]: <HOME=/home/a967a038>
+Tue Jun 14 19:47:05 2022: envp[18]: <LANG=en_US.UTF-8>
+Tue Jun 14 19:47:05 2022: envp[19]: <XDG_CURRENT_DESKTOP=MATE>
+Tue Jun 14 19:47:05 2022: envp[20]: <VTE_VERSION=6003>
+Tue Jun 14 19:47:05 2022: envp[21]: <XRDP_SOCKET_PATH=/run/xrdp/sockdir>
+Tue Jun 14 19:47:05 2022: envp[22]: <XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10>
+Tue Jun 14 19:47:05 2022: envp[23]: <SDKMAN_VERSION=5.13.1>
+Tue Jun 14 19:47:05 2022: envp[24]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0c0c61c3_06c9_40a0_a8ad_06d1e3541658>
+Tue Jun 14 19:47:05 2022: envp[25]: <XDG_SESSION_CLASS=user>
+Tue Jun 14 19:47:05 2022: envp[26]: <TERM=xterm-256color>
+Tue Jun 14 19:47:05 2022: envp[27]: <GTK_OVERLAY_SCROLLING=0>
+Tue Jun 14 19:47:05 2022: envp[28]: <HOST=burdock.ittc.ku.edu>
+Tue Jun 14 19:47:05 2022: envp[29]: <USER=a967a038>
+Tue Jun 14 19:47:05 2022: envp[30]: <GNOME_TERMINAL_SERVICE=:1.988>
+Tue Jun 14 19:47:05 2022: envp[31]: <WWW_HOME=http://www.ittc.ku.edu/>
+Tue Jun 14 19:47:05 2022: envp[32]: <XRDP_SESSION=1>
+Tue Jun 14 19:47:05 2022: envp[33]: <SDKMAN_DIR=/home/a967a038/.sdkman>
+Tue Jun 14 19:47:05 2022: envp[34]: <DISPLAY=:10.0>
+Tue Jun 14 19:47:05 2022: envp[35]: <XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10>
+Tue Jun 14 19:47:05 2022: envp[36]: <SHLVL=1>
+Tue Jun 14 19:47:05 2022: envp[37]: <SDKMAN_CANDIDATES_API=https://api.sdkman.io/2>
+Tue Jun 14 19:47:05 2022: envp[38]: <UBUNTU_MENUPROXY=1>
+Tue Jun 14 19:47:05 2022: envp[39]: <XDG_SESSION_ID=c16>
+Tue Jun 14 19:47:05 2022: envp[40]: <DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596>
+Tue Jun 14 19:47:05 2022: envp[41]: <XDG_RUNTIME_DIR=/run/user/100576833>
+Tue Jun 14 19:47:05 2022: envp[42]: <SONAR_TOKEN=cdb4367d26b76c2154012a4f98e2aa041123c6a3>
+Tue Jun 14 19:47:05 2022: envp[43]: <QT_AUTO_SCREEN_SCALE_FACTOR=0>
+Tue Jun 14 19:47:05 2022: envp[44]: <XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop>
+Tue Jun 14 19:47:05 2022: envp[45]: <PATH=/home/a967a038/.cargo/bin:~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin>
+Tue Jun 14 19:47:05 2022: envp[46]: <DOMAINNAME=>
+Tue Jun 14 19:47:05 2022: envp[47]: <DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596>
+Tue Jun 14 19:47:05 2022: envp[48]: <SDKMAN_PLATFORM=linuxx64>
+Tue Jun 14 19:47:05 2022: envp[49]: <MAIL=/var/spool/mail/a967a038>
+Tue Jun 14 19:47:05 2022: envp[50]: <UID=100576833>
+Tue Jun 14 19:47:05 2022: envp[51]: <QT_SCALE_FACTOR=1>
+Tue Jun 14 19:47:05 2022: envp[52]: <OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb>
+Tue Jun 14 19:47:05 2022: envp[53]: <_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue Jun 14 19:47:05 2022: envp[54]: <LD_PRELOAD=>
+Tue Jun 14 19:47:05 2022: process created with pid: 482694
+Tue Jun 14 19:47:05 2022: parent pid: 482693
+Tue Jun 14 19:47:05 2022: working directory: </home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles>
+Tue Jun 14 19:47:05 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Tue Jun 14 19:47:05 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Tue Jun 14 19:47:05 2022: argv[1]: <-quiet>
+Tue Jun 14 19:47:05 2022: argv[2]: <-imultiarch>
+Tue Jun 14 19:47:05 2022: argv[3]: <x86_64-linux-gnu>
+Tue Jun 14 19:47:05 2022: argv[4]: <-D_GNU_SOURCE>
+Tue Jun 14 19:47:05 2022: argv[5]: <DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: argv[6]: <-quiet>
+Tue Jun 14 19:47:05 2022: argv[7]: <-dumpbase>
+Tue Jun 14 19:47:05 2022: argv[8]: <DTDScanner.o.c++>
+Tue Jun 14 19:47:05 2022: argv[9]: <-mtune=generic>
+Tue Jun 14 19:47:05 2022: argv[10]: <-march=x86-64>
+Tue Jun 14 19:47:05 2022: argv[11]: <-auxbase>
+Tue Jun 14 19:47:05 2022: argv[12]: <DTDScanner.o>
+Tue Jun 14 19:47:05 2022: argv[13]: <-fasynchronous-unwind-tables>
+Tue Jun 14 19:47:05 2022: argv[14]: <-fstack-protector-strong>
+Tue Jun 14 19:47:05 2022: argv[15]: <-Wformat>
+Tue Jun 14 19:47:05 2022: argv[16]: <-Wformat-security>
+Tue Jun 14 19:47:05 2022: argv[17]: <-fstack-clash-protection>
+Tue Jun 14 19:47:05 2022: argv[18]: <-fcf-protection>
+Tue Jun 14 19:47:05 2022: argv[19]: <-o>
+Tue Jun 14 19:47:05 2022: argv[20]: </tmp/ccZ6NuZ8.s>
+Tue Jun 14 19:47:05 2022: skipping process with pid: 482694
+Tue Jun 14 19:47:05 2022: finalizing json file
+Tue Jun 14 19:47:05 2022: returned with code: 1

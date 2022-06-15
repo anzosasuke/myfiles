@@ -1,0 +1,73 @@
+# (C) SonarSource SA, 2014-2021, info@sonarsource.com
+# All SONARSOURCE programs and content are copyright protected.
+# SONARSOURCE and SONARQUBE are trademarks of SonarSource SA. All rights are expressly reserved.
+#
+# This file is designed exclusively for use with the SONARSOURCE C / C++ / Objective-C Plugin.
+# It may not be used in connection with any other software.
+# Any other use is prohibited by law and may be grounds for immediate termination of your License.
+{
+"version":"6.30",
+"captures":[
+{
+"compiler":"clang",
+"cwd":"/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles",
+"executable":"/usr/bin/x86_64-linux-gnu-g++-9",
+"cmd":[
+"g++",
+"DTDScanner.o.c++"],
+"env":[
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.ztDrcW",
+"SQ_WRAPPER_LIBRARY=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
+"SHELL=/bin/bash",
+"SESSION_MANAGER=local/burdock.ittc.ku.edu:@/tmp/.ICE-unix/433505,unix/burdock.ittc.ku.edu:/tmp/.ICE-unix/433505",
+"COLORTERM=truecolor",
+"SSH_AUTH_SOCK=/run/user/100576833/keyring/ssh",
+"GRADLE_HOME=/home/a967a038/.sdkman/candidates/gradle/current",
+"SDKMAN_CANDIDATES_DIR=/home/a967a038/.sdkman/candidates",
+"GTK_MODULES=appmenu-gtk-module:appmenu-gtk-module",
+"DBUS_STARTER_BUS_TYPE=session",
+"MATE_DESKTOP_SESSION_ID=this-is-deprecated",
+"PWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb/myfiles",
+"LOGNAME=a967a038",
+"XDG_SESSION_TYPE=x11",
+"MANPATH=/usr/man:/usr/share/man:/usr/local/man:/usr/man/preformat:/usr/system/man:/usr/X11R6/man",
+"PRINTER=duplex",
+"PULSE_SCRIPT=/etc/xrdp/pulse/default.pa",
+"HOME=/home/a967a038",
+"LANG=en_US.UTF-8",
+"XDG_CURRENT_DESKTOP=MATE",
+"VTE_VERSION=6003",
+"XRDP_SOCKET_PATH=/run/xrdp/sockdir",
+"XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10",
+"SDKMAN_VERSION=5.13.1",
+"GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0c0c61c3_06c9_40a0_a8ad_06d1e3541658",
+"XDG_SESSION_CLASS=user",
+"TERM=xterm-256color",
+"GTK_OVERLAY_SCROLLING=0",
+"HOST=burdock.ittc.ku.edu",
+"USER=a967a038",
+"GNOME_TERMINAL_SERVICE=:1.988",
+"WWW_HOME=http://www.ittc.ku.edu/",
+"XRDP_SESSION=1",
+"SDKMAN_DIR=/home/a967a038/.sdkman",
+"DISPLAY=:10.0",
+"XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10",
+"SHLVL=1",
+"SDKMAN_CANDIDATES_API=https://api.sdkman.io/2",
+"UBUNTU_MENUPROXY=1",
+"XDG_SESSION_ID=c16",
+"DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596",
+"XDG_RUNTIME_DIR=/run/user/100576833",
+"SONAR_TOKEN=cdb4367d26b76c2154012a4f98e2aa041123c6a3",
+"QT_AUTO_SCREEN_SCALE_FACTOR=0",
+"XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+"PATH=/home/a967a038/.cargo/bin:~/Documents/pycharm-community-2022.1.1/bin/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/support/:~/Downloads/ghidra-master/build/dist/ghidra_10.2_DEV_20220107_linux_x86_64/ghidra_10.2_DEV/:~/Downloads/RESEARCH/sonar-scanner-cli-4.7.0.2747-linux/sonar-scanner-4.7.0.2747-linux/bin:~/Downloads/RESEARCH/build-wrapper-linux-x86:/home/a967a038/.sdkman/candidates/gradle/current/bin:/usr/system/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:/usr/X11R6/bin",
+"DOMAINNAME=",
+"DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rjGTOUcy0w,guid=cb23b7252a2b2458d378299062a77596",
+"SDKMAN_PLATFORM=linuxx64",
+"MAIL=/var/spool/mail/a967a038",
+"UID=100576833",
+"QT_SCALE_FACTOR=1",
+"OLDPWD=/home/a967a038/Downloads/RESEARCH/NEW/NEW1/bb",
+"_=/home/a967a038/Downloads/RESEARCH/build-wrapper-linux-x86/build-wrapper-linux-x86-64",
+"LD_PRELOAD="]}]}
